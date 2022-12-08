@@ -21,6 +21,7 @@
             </li>
         </ul>
     <br>
+    <form method="post">
     <fieldset>
         <legend>Ingresa tu Artículo</legend>
               <label  for="TituloA">Titulo</label>
@@ -33,9 +34,9 @@
               <input type="text" id="Desc" name="user_description">
               <br>
 
-              <label for="Img">Imagen</label>
+              <label for="Fecha">Fecha</label>
               <br>
-              <input type="url" id="Img" name="user_image">              
+              <input type="text" id="Fecha" name="user_date">              
               <br>
 
               <label for="Autor">Autor</label>
@@ -43,6 +44,10 @@
               <input type="text" id="Autor" name="user_name">              
               <br>
               <input type="submit" value="Postear">
+</form>
 </nav>
+<?php
+    include("registro.php");
+?>
 </body>
 </html>
