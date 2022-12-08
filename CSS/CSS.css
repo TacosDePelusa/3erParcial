@@ -1,0 +1,33 @@
+header.Titulo{
+    background-color: crimson;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+body.cuerpo{
+    background-image: url("https://i.pinimg.com/originals/b1/5d/1b/b15d1b822a2654448b7dfc04962bd096.png");
+    background-repeat: no-repeat;
+    background-size: 2000px, 1000px;
+    background-position: center;
+}
+p.sub{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: black;
+    margin: auto;
+}
+nav.navigator{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: black;
+    margin: auto;
+}
+footer.Pata{
+    color:white;
+    text-align: center;
+    background-color: black;
+}
